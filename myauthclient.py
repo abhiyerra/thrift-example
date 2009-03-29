@@ -19,14 +19,14 @@ transport.open()
 
 print auth.say_hello()
 
-#user = User()
-#user.username = 'hello'
-#user.password = 'world'
-#
-#print "Login: %s" % auth.login(user)
-#
-#user2 = User()
-#user2.username = 'failed'
-#user2.password = 'world'
-#
-#print "Login: %s" % auth.login(user2)
+user = User()
+user.username = 'hello'
+user.password = 'world'
+
+print "Login: %s" % auth.login(user)
+
+user2 = User()
+user2.username = 'failed'
+user2.password = 'world'
+
+print "Login: %s" % auth.login(user2)
