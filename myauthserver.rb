@@ -3,7 +3,7 @@
 require 'thrift'
 $:.push('gen-rb')
 
-require 'Authentication'
+require 'authentication'
 require 'myauth_constants'
 
 class AuthenticationHandler

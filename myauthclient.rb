@@ -3,7 +3,7 @@
 require 'thrift'
 $:.push('gen-rb')
 
-require 'Authentication'
+require 'authentication'
 require 'myauth_constants'
 
 transport = Thrift::BufferedTransport.new(Thrift::Socket.new('localhost', 9090))
