@@ -2,10 +2,12 @@ An example service using thrift. With 2 clients written in ruby and python and a
 
 test **ok** with Thrift version 0.9.1
 
-Run using
-==========
+## usage ##
 
-thrift --gen rb --gen py myauth.thrift
+generate
+--------
+
+    thrift --gen rb --gen py myauth.thrift
 
 server
 ------
@@ -16,6 +18,8 @@ server
 client
 ------
 
-python myauthclient.py
-ruby myauthclient.rb
+    python myauthclient.py  
+    ruby myauthclient.rb
 
+
+enjoy.
