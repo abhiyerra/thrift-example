@@ -1,5 +1,6 @@
 namespace rb MyAuth
 namespace py myauth
+namespace java com.github.jiahut.thrift.gen
 
 struct User {
   1: string username,
